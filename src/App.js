@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Wow I created a React Page with CLI. Is this AB Testing?!</h1>
+          <h1 className="App-title">Wow I created a React Page with CLI. Is this AB Testing. I am a mirror!</h1>
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.

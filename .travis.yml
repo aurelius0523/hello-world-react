@@ -14,3 +14,4 @@ deploy:
   keyfile: hello-world-react-pipe-e73d4d1b1132.json
   project: hello-world-react-pipe
   on: master
+  no_stop_previous_version: true
