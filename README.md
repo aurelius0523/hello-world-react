@@ -23,3 +23,4 @@ A simple `create-react-app` skeleton app used to test Google App Engine (GAE) de
     - If you have two versions of the same service running, you can split traffic in GAE's Dashboard, under *Versions*. Can be useful for non-demographically targeted AB Testing
 3. GAE is PaaS, while Google Compute Engine (GCE) is Iaas. [What are the differences?](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
 4. For some reason Travis build process is a lot longer than simply running `gcloud app deploy`. It needs to be looked into.
+5. Node JS can only use flexible environment on GAE, which will [incur higher cost!](https://cloud.google.com/appengine/docs/the-appengine-environments)
